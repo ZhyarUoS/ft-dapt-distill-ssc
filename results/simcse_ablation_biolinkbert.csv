@@ -1,0 +1,5 @@
+reference,config,metric,delta,ci_lo,ci_hi,significant
+Ablation A: no SimCSE (context + focal),Config 1 (SimCSE),micro,0.0008577733532437364,-0.0007964161274266468,0.0025219844035174743,False
+Ablation A: no SimCSE (context + focal),Config 1 (SimCSE),macro,-0.002649204132105345,-0.005683159484590228,0.000425503016530554,False
+Ablation B: no SimCSE (context + weighted CE),Config 1 (SimCSE),micro,0.000915745810519328,-0.0009623361539737862,0.0027874564459930973,False
+Ablation B: no SimCSE (context + weighted CE),Config 1 (SimCSE),macro,-0.0011401674167838918,-0.0044671377396855345,0.002450328903718412,False

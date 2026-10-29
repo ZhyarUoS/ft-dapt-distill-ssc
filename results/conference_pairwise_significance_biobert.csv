@@ -1,0 +1,6 @@
+config_b,config_a,delta_micro_f1,ci_lo,ci_hi,significant
+Config 2: + MLM DAPT,Config 1: Fine-tuning only,0.0002117471378795436,-0.0015928322548531826,0.001891488302638189,False
+Config 3: + Soft distillation,Config 1: Fine-tuning only,-0.001970831259333001,-0.0037514518002323477,-0.00016592002654725047,True
+Config 4: + SupCon,Config 1: Fine-tuning only,-0.003272142027542724,-0.005143520822963321,-0.0013605442176870541,True
+Config 3: + Soft distillation,Config 2: + MLM DAPT,-0.0021825783972125447,-0.0036502405840384,-0.0007964161274266413,True
+Config 4: + SupCon,Config 3: + Soft distillation,-0.0013013107682097237,-0.002621536419445847,3.31840053094945e-05,False
